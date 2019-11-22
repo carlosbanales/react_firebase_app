@@ -3,13 +3,13 @@ import 'firebase/auth';
 import 'firebase/database';
 
 const config = {
-  apiKey: "AIzaSyDLuW5Dy7W88F7Q4otzq2O1ZEJ7QZLJEo8",
-  authDomain: "dempapp-38a7f.firebaseapp.com",
-  databaseURL: "https://dempapp-38a7f.firebaseio.com",
-  projectId: "dempapp-38a7f",
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
   storageBucket: "",
-  messagingSenderId: "718478207162",
-  appId: "1:718478207162:web:c1567263b46c548a"
+  messagingSenderId: "",
+  appId: ""
 }
 
 class Firebase {
