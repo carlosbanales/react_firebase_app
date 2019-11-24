@@ -5,6 +5,7 @@ import { AuthUserContext } from '../Session';
 import SignOutButton from '../SignOut';
 import * as ROUTES from '../../constants/routes';
 import * as ROLES from '../../constants/roles';
+import './style.css';
 
 const Navigation = () => (
   <AuthUserContext.Consumer>
@@ -19,7 +20,7 @@ const Navigation = () => (
 );
 
 const NavigationAuth = ({ authUser }) => (
-  <ul>
+  <ul className='authNav'>
     <li>
       <Link to={ROUTES.LANDING}>Landing</Link>
     </li>
@@ -41,7 +42,7 @@ const NavigationAuth = ({ authUser }) => (
 );
 
 const NavigationNonAuth = () => (
-  <ul>
+  <ul className='nonAuthNav'>
     <li>
       <Link to={ROUTES.LANDING}>Landing</Link>
     </li>

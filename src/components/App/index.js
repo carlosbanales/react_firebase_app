@@ -12,13 +12,15 @@ import AdminPage from '../Admin';
 
 import * as ROUTES from '../../constants/routes';
 import { withAuthentication } from '../Session';
+import Logo from './../../logo.png';
+import './style.css';
 
 const App = () => (
   <Router>
-    <div>
-      <Navigation />
+    <div className='box'>
+      <img src={Logo} alt='Logo' className='Logo' />
 
-      <hr />
+      <Navigation />
 
       <Route exact path={ROUTES.LANDING} component={LandingPage} />
       <Route path={ROUTES.SIGN_UP} component={SignUpPage} />
