@@ -25,6 +25,9 @@ const NavigationAuth = ({ authUser }) => (
       <Link to={ROUTES.LANDING}>Landing</Link>
     </li>
     <li>
+      <Link to={ROUTES.PORTFOLIO}>Portfolio</Link>
+    </li>
+    <li>
       <Link to={ROUTES.HOME}>Home</Link>
     </li>
     <li>
@@ -45,6 +48,9 @@ const NavigationNonAuth = () => (
   <ul className='nonAuthNav'>
     <li>
       <Link to={ROUTES.LANDING}>Landing</Link>
+    </li>
+    <li>
+      <Link to={ROUTES.PORTFOLIO}>Portfolio</Link>
     </li>
     <li>
       <Link to={ROUTES.SIGN_IN}>Sign In</Link>
