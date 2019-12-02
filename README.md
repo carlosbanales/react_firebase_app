@@ -2,4 +2,4 @@
 
 This was made following The Road to React by @rwieruch
 
-Check out the App here https://dempapp-38a7f.firebaseapp.com/
+Check out the App here https://7sixtymedia.com/
