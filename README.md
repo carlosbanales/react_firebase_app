@@ -2,4 +2,4 @@
 
 This was made following The Road to React by @rwieruch
 
-Check out the App here https://7sixtymedia.com/
+Check out the App here https://www.7sixtymedia.com/
