@@ -22,16 +22,16 @@ const Navigation = () => (
 const NavigationAuth = ({ authUser }) => (
   <ul className='authNav'>
     <li>
-      <Link to={ROUTES.LANDING}>Landing</Link>
+      <Link to={ROUTES.HOME}>Home</Link>
     </li>
     <li>
       <Link to={ROUTES.PORTFOLIO}>Portfolio</Link>
     </li>
     <li>
-      <Link to={ROUTES.HOME}>Home</Link>
+      <Link to={ROUTES.ACCOUNT}>Account</Link>
     </li>
     <li>
-      <Link to={ROUTES.ACCOUNT}>Account</Link>
+      <Link to={ROUTES.MESSAGE_BOARD}>Message</Link>
     </li>
     {!!authUser.roles[ROLES.ADMIN] && (
       <li>
@@ -47,7 +47,7 @@ const NavigationAuth = ({ authUser }) => (
 const NavigationNonAuth = () => (
   <ul className='nonAuthNav'>
     <li>
-      <Link to={ROUTES.LANDING}>Landing</Link>
+      <Link to={ROUTES.HOME}>Home</Link>
     </li>
     <li>
       <Link to={ROUTES.PORTFOLIO}>Portfolio</Link>
