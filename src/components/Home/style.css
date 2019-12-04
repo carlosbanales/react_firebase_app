@@ -1,0 +1,27 @@
+.Container {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    
+}
+
+.LeftBox {
+    display: inline-block;
+    padding: 40px;
+    margin: 0;
+    vertical-align: text-top;
+}
+
+.MiddleBox {
+    display: inline-block;
+    padding: 40px;
+    margin: 0;
+    vertical-align: text-top;
+}
+
+.RightBox {
+    display: inline-block;
+    padding: 40px;
+    margin: 0;
+    vertical-align: text-top;
+}
