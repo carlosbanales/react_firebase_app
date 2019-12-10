@@ -12,14 +12,6 @@ const HomePage = () => (
     </div>
 
     <div className='MiddleBox'>
-      <h3>Video Production</h3>
-      <p>
-        We offer a wide variety of Video <br />Production
-        Services that are sure to<br />fit your needs.
-      </p>
-    </div>
-
-    <div className='RightBox'>
       <h3>Marketing</h3>
       <p>
         We offer Social Media Marketing <br />Services where we Create, 
@@ -28,6 +20,15 @@ const HomePage = () => (
         Contact <br />us for more info on SMM. 
       </p>
     </div>
+
+    <div className='RightBox'>
+      <h3>Video Production</h3>
+      <p>
+        We offer a wide variety of Video <br />Production
+        Services that are sure to<br />fit your needs.
+      </p>
+    </div>
+
   </div>
 );
 
