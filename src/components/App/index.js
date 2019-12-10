@@ -44,7 +44,7 @@ const App = () => (
       <a href="https://www.instagram.com/7sixtymedia/">
         <FontAwesomeIcon icon={faInstagram} size="2x" className="insta" />
       </a>
-      <a href="https://www.instagram.com/7sixtymedia/">
+      <a href="mailto:contact@7sixtymedia.com">
         <FontAwesomeIcon icon={faEnvelope} size="2x" className="mail" />
       </a>
     </div>

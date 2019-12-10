@@ -6,26 +6,27 @@ const HomePage = () => (
     <div className='LeftBox'>
       <h3>Design</h3>
       <p>
-        Expressing your brands values with <br />
-        design and capturing your vision through<br /> thoughtful design.
+        Whether you need a website, logo, or billboard, 
+        we can help you express your brands values through 
+        thoughtful design. 
       </p>
     </div>
 
     <div className='MiddleBox'>
       <h3>Marketing</h3>
       <p>
-        We offer Social Media Marketing <br />Services where we Create, 
-        Run, and <br />Monitor, Monthly Ad Campaigns on <br />Instagram 
-        and Facebook to help reach <br />your optimal target audience.
-        Contact <br />us for more info on SMM. 
+        We offer Social Media Marketing Services where we Create, 
+        Run, and Monitor, Monthly Ad Campaigns on Instagram 
+        and Facebook to help reach your optimal target audience.
+        Contact us for more info on SMM. 
       </p>
     </div>
 
     <div className='RightBox'>
       <h3>Video Production</h3>
       <p>
-        We offer a wide variety of Video <br />Production
-        Services that are sure to<br />fit your needs.
+        We offer a wide variety of Video Production
+        Services that are sure to fit your needs.
       </p>
     </div>
 
