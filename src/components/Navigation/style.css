@@ -18,13 +18,14 @@ a {
 
 .nonAuthNav {
 	list-style-type: none;
-        text-align: center;
-        margin: 0px 0px;
-        padding: 0;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 0;
 }
 
 .nonAuthNav li {
 	display: inline-block;
-        font-size: 20px;
-        padding: 16px;
+    font-size: 20px;
+	padding: 16px;
+	padding-bottom: 50px;
 }

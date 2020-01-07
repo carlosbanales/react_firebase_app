@@ -13,6 +13,9 @@ import PortfolioPage from '../Portfolio';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF } from '@fortawesome/free-brands-svg-icons';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 import * as ROUTES from '../../constants/routes';
@@ -43,6 +46,15 @@ const App = () => (
     <div>
       <a href="https://www.instagram.com/7sixtymedia/">
         <FontAwesomeIcon icon={faInstagram} size="2x" className="insta" />
+      </a>
+      <a href="https://www.instagram.com/7sixtymedia/">
+        <FontAwesomeIcon icon={faFacebookF} size="2x" className="insta" />
+      </a>
+      <a href="https://www.instagram.com/7sixtymedia/">
+        <FontAwesomeIcon icon={faTwitter} size="2x" className="insta" />
+      </a>
+      <a href="https://www.instagram.com/7sixtymedia/">
+        <FontAwesomeIcon icon={faYoutube} size="2x" className="insta" />
       </a>
       <a href="mailto:contact@7sixtymedia.com">
         <FontAwesomeIcon icon={faEnvelope} size="2x" className="mail" />
