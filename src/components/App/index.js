@@ -47,13 +47,13 @@ const App = () => (
       <a href="https://www.instagram.com/7sixtymedia/">
         <FontAwesomeIcon icon={faInstagram} size="2x" className="insta" />
       </a>
-      <a href="https://www.instagram.com/7sixtymedia/">
+      <a href="https://www.facebook.com/7sixtymedia">
         <FontAwesomeIcon icon={faFacebookF} size="2x" className="insta" />
       </a>
-      <a href="https://www.instagram.com/7sixtymedia/">
+      <a href="https://www.twitter.com/7SixtyMedia/">
         <FontAwesomeIcon icon={faTwitter} size="2x" className="insta" />
       </a>
-      <a href="https://www.instagram.com/7sixtymedia/">
+      <a href="https://www.youtube.com/channel/UClcj3tyhs476z9oz0ZCpwGQ">
         <FontAwesomeIcon icon={faYoutube} size="2x" className="insta" />
       </a>
       <a href="mailto:contact@7sixtymedia.com">
