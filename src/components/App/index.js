@@ -10,6 +10,7 @@ import HomePage from '../Home';
 import AccountPage from '../Account';
 import AdminPage from '../Admin';
 import PortfolioPage from '../Portfolio';
+import TheTeamPage from '../TheTeam';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
@@ -20,7 +21,7 @@ import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 import * as ROUTES from '../../constants/routes';
 import { withAuthentication } from '../Session';
-import Logo from './../../logo.png';
+import Logo from './../../images/logo.png';
 import './style.css';
 
 const App = () => (
@@ -41,6 +42,8 @@ const App = () => (
       <Route path={ROUTES.ACCOUNT} component={AccountPage} />
       <Route path={ROUTES.ADMIN} component={AdminPage} />
       <Route path={ROUTES.PORTFOLIO} component={PortfolioPage} />
+      <Route path={ROUTES.THETEAM} component={TheTeamPage} />
+
     </div>
 
     <div>

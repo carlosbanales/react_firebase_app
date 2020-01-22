@@ -6,8 +6,8 @@ const HomePage = () => (
     <div className="video-container">
         <iframe
           title="Reel" width="700" height="400" src="https://www.youtube.com/embed/gdhfysJNNqM"
-          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
+          frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen>
         </iframe>
     </div>
 

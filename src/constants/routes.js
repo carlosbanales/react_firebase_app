@@ -7,3 +7,4 @@ export const ADMIN = '/admin';
 export const PASSWORD_FORGET = '/pw-forget';
 export const ADMIN_DETAILS = '/admin/:id';
 export const PORTFOLIO = '/portfolio';
+export const THETEAM = '/theteam';
