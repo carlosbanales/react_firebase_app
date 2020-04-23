@@ -1,17 +1,26 @@
 {
   "name": "test_app",
   "version": "0.1.0",
+  "license": "ISC",
   "private": true,
+  "main": "index.js",
   "dependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "0.9.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.5",
+    "babel-preset-react": "^6.24.1",
+    "jest": "^25.4.0",
+    "parcel-bundler": "^1.12.4"
+  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "start": "parcel ./public/index.html",
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost:1234/"
   }
 }
