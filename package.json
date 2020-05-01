@@ -10,6 +10,7 @@
     "react-scripts": "0.9.5"
   },
   "devDependencies": {
+    "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
     "babel-preset-react": "^6.24.1",
     "jest": "^25.4.0",
