@@ -28372,7 +28372,7 @@ var _indexModule = _interopRequireDefault(require("./index.module.css"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function App() {
-  return /*#__PURE__*/_react.default.createElement("h2", {
+  return /*#__PURE__*/_react.default.createElement("p", {
     className: _indexModule.default.blueStuff
   }, "CSS Modules");
 }
@@ -28426,7 +28426,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "36125" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "45461" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

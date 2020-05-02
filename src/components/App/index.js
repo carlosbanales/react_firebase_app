@@ -3,9 +3,9 @@ import styles from  './index.module.css';
 
 function App() {
 	return (
-		<h2 className={styles.blueStuff}>
+		<p className={styles.blueStuff}>
 			CSS Modules
-		</h2>
+		</p>
 	);
 }
 
